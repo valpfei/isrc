@@ -1,0 +1,16 @@
+{
+    "name": "valpfei/isrc",
+    "description": "Projet",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "valpfei",
+            "email": "valentin.pfeil@ecole-air.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "2.x-dev"
+    }
+}
