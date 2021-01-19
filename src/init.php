@@ -5,10 +5,10 @@
 require __DIR__ . '/../vendor/autoload.php';
 
 //require_once '../vendor/autoload.php';
-//require_once 'Demo.php';
+//require_once 'demo.php';
 
-//use Valpfei\Demo;
-use Valpfei\Isrc\Demo;
+//use valpfei\demo;
+use valpfei\isrc\demo;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
@@ -23,7 +23,7 @@ $log->debug('Debug');
 //$log->warning('Foo');
 //$log->error('Bar');
 
-$demo = new Demo();
+$demo = new demo();
 echo $demo->version;
 echo PHP_EOL;
 $demo->hello();

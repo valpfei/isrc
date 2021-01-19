@@ -1,10 +1,10 @@
 <?php
-namespace ValPfei\Isrc;
+namespace valpfei\isrc;
 
 /**
  * Illustrer le fonctionnement de PHPCS
  */
-class Demo
+class demo
 {
     public $version =1;
     /**
